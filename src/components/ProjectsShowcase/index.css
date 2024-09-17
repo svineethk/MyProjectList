@@ -1,0 +1,97 @@
+.app-container {
+  min-height: 100vh;
+  height: auto;
+  width: 100vw;
+}
+
+.header-container {
+  height: 100px;
+  width: 100vw;
+  background-color: #f1f5f9;
+  padding-left: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.website-logo {
+  height: 80px;
+  width: 220px;
+}
+
+.option-element {
+  margin-left: 60px;
+  height: 50px;
+  width: 360px;
+  padding: 5px;
+  border: 2px solid #d5dfe9;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  font-family: Roboto;
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.content-container {
+  min-height: 650px;
+  width: 1800px;
+  height: auto;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.failure-content-container {
+  height: 650px;
+  width: 1800px;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.progress-content-container {
+  height: 650px;
+  width: 1800px;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-logo {
+  height: 300px;
+  width: 300px;
+}
+
+.failure-header {
+  font-family: Roboto;
+  color: #475569;
+}
+
+.failure-paragraph {
+  font-family: Roboto;
+  color: #7b8697;
+}
+
+.retry-button {
+  height: 48px;
+  width: 130px;
+  background-color: #328af2;
+  color: #ffffff;
+  outline: none;
+  border-radius: 8px;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
